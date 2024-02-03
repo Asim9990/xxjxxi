@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://mgdrop.online/` + encodeURI(path as string)
+					`https://mgdrop.store/` + encodeURI(path as string)
 				}`,
 			},
 		};
